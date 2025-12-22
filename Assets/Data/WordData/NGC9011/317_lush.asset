@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 317_lush
+  m_EditorClassIdentifier: 
+  id: ngc9011_317
+  wordText: lush
+  audioClip: {fileID: 8300000, guid: aba2be4a751365643a64d9c545c36e38, type: 3}
+  meaning: "adj. \u8302\u76DB\u7684\uFF1B\u8C6A\u534E\u7684\uFF1B\u4E30\u5BCC\u7684
+    n. \u9152\u9B3C\uFF1B\u9189\u6C49 v. \u559D\u9152"

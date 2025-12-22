@@ -1,0 +1,88 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DataListUI : MonoBehaviour
+{
+    public static DataListUI Instance { get; private set; }
+
+    [Header("List 配置")]
+    [Tooltip("用来摆放所有 Data 条目的父物体，一般是 ScrollView 的 Content")]
+    public Transform listRoot;
+
+    [Tooltip("单个 Data 条目的预制体")]
+    public DataListItemUI itemPrefab;
+
+    // 记录每个 DataItem 对应的 UI 条目
+    private Dictionary<DataItem, DataListItemUI> _itemUIs = new Dictionary<DataItem, DataListItemUI>();
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+    }
+
+    /// <summary>
+    /// 每次收集到某个 DataItem 时由 DataCollectionManager 调用。
+    /// </summary>
+    public void OnDataCollected(DataItem item)
+    {
+        if (item == null) return;
+        var manager = DataCollectionManager.Instance;
+        if (manager == null) return;
+
+        int current = manager.GetCurrentCount(item);
+        int required = manager.GetRequiredCount(item);
+
+        // 第一次出现：创建一条新的
+        if (!_itemUIs.TryGetValue(item, out var ui))
+        {
+            if (itemPrefab == null || listRoot == null)
+            {
+                Debug.LogWarning("DataListUI: itemPrefab 或 listRoot 没有设置");
+                return;
+            }
+
+            ui = Instantiate(itemPrefab, listRoot);
+            _itemUIs[item] = ui;
+
+            ui.Setup(item, current, required);
+        }
+        else
+        {
+            // 已经有条目了：只更新计数
+            ui.UpdateCount(current, required);
+        }
+    }
+
+    /// <summary>
+    /// 可选：比如换关卡时，想从 Manager 全量刷新一次。
+    /// </summary>
+    public void RefreshFromManager()
+    {
+        var manager = DataCollectionManager.Instance;
+        if (manager == null) return;
+
+        // 简单做法：先清 UI，再根据 records 重建
+        foreach (var kv in _itemUIs)
+        {
+            if (kv.Value != null)
+            {
+                Destroy(kv.Value.gameObject);
+            }
+        }
+        _itemUIs.Clear();
+
+        // 这里用 allDataItems + HasCollected 去重建
+        foreach (var item in manager.allDataItems)
+        {
+            if (item == null) continue;
+            if (!manager.HasCollected(item)) continue;
+
+            OnDataCollected(item);
+        }
+    }
+}

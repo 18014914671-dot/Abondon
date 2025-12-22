@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 148_rainbow
+  m_EditorClassIdentifier: 
+  id: ngc9011_148
+  wordText: rainbow
+  audioClip: {fileID: 8300000, guid: 003061a0d9419864ba57dcd4d5fc3ded, type: 3}
+  meaning: "n. \u5F69\u8679\uFF1B\u5E7B\u60F3\uFF1B\u4E94\u5F69\u7F24\u7EB7\u7684\u6392\u5217"

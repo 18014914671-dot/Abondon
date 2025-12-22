@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 97_granite
+  m_EditorClassIdentifier: 
+  id: ngc9011_97
+  wordText: granite
+  audioClip: {fileID: 8300000, guid: c1f7d170fdcbf7741b544db95c1f9248, type: 3}
+  meaning: "n. \u82B1\u5C97\u5CA9\uFF1B\u575A\u6BC5\uFF0C\u51B7\u9177"

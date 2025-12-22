@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 407_resurgence
+  m_EditorClassIdentifier: 
+  id: ngc9011_407
+  wordText: resurgence
+  audioClip: {fileID: 8300000, guid: d67ac0935ca58db419c70055774c6bd8, type: 3}
+  meaning: "n. \uFF08\u5730\u4E0B\u6C34\uFF09\u56DE\u6D8C\uFF1B\u590D\u82CF"

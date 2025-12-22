@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 287_feather
+  m_EditorClassIdentifier: 
+  id: ngc9011_287
+  wordText: feather
+  audioClip: {fileID: 8300000, guid: 99f04edf0d1c38b4ba105ec5c681347c, type: 3}
+  meaning: "n. \u7FBD\u6BDB\uFF1B\u79CD\u7C7B\uFF1B\u72B6\u6001 v. \u7528\u7FBD\u6BDB\u88C5\u9970\uFF1B\u4F7F\u6868\u53F6\u6C34\u5E73\uFF1B\u98D8\u843D"

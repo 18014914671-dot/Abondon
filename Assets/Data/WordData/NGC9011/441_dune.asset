@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 441_dune
+  m_EditorClassIdentifier: 
+  id: ngc9011_441
+  wordText: dune
+  audioClip: {fileID: 8300000, guid: f3990f50a50616a4ea8425f22f44a5d1, type: 3}
+  meaning: "n. \u6C99\u4E18\uFF1B\u98CE\u79EF\u6C99\u5806"

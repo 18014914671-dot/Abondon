@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 453_flare
+  m_EditorClassIdentifier: 
+  id: ngc9011_453
+  wordText: flare
+  audioClip: {fileID: 8300000, guid: d6562b7ce8c098042b819e67605f78d2, type: 3}
+  meaning: "n. \u95EA\u5149\uFF1B\u7A81\u53D1\u4EAE\u5149  v. \u731B\u7136\u7EFD\u653E\uFF1B\u95EA\u8000"

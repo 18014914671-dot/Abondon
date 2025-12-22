@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 265_insect
+  m_EditorClassIdentifier: 
+  id: ngc9011_265
+  wordText: insect
+  audioClip: {fileID: 8300000, guid: 218408c7e6564464196d7addf9155c9b, type: 3}
+  meaning: "n. \u6606\u866B\uFF1B\u6E3A\u5C0F\u7684\u4EBA\uFF1B\u53EF\u9119\u7684\u4EBA"

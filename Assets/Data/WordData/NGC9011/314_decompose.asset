@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 314_decompose
+  m_EditorClassIdentifier: 
+  id: ngc9011_314
+  wordText: decompose
+  audioClip: {fileID: 8300000, guid: 95572ca4766f2f548987a5c81547503c, type: 3}
+  meaning: "v. \u5206\u89E3\uFF1B\u8150\u70C2\uFF1B\u4F7F\u5206\u89E3"

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ship
+  - Enemy
+  - enemyMet
+  - mine
+  - coin
+  - shipB
+  - enemyR
+  - shipR
+  - enemyB
+  - GameZoneOn
+  - GameZoneOff
+  - MiniMeteo
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ship
+  - SBullet
+  - SRocket
+  - Enemy
+  - EBullet
+  - ERocket
+  - Mine
+  - Meteorite
+  - SurpriseBox
+  - CoinBonus
+  - HealthBonus
+  - RocketBonus
+  - GameZoneOn
+  - GameZoneOff
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default

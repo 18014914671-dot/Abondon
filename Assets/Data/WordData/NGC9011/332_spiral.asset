@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 332_spiral
+  m_EditorClassIdentifier: 
+  id: ngc9011_332
+  wordText: spiral
+  audioClip: {fileID: 8300000, guid: 3aa9527d3853a1c42bc2bfccccebb58f, type: 3}
+  meaning: "n. \u87BA\u65CB\uFF1B\u65CB\u6DA1\uFF1B\u87BA\u65CB\u5F62\u7269 adj.
+    \u87BA\u65CB\u5F62\u7684 v. \u76D8\u65CB\u4E0A\u5347\u6216\u4E0B\u964D\uFF1B\u6025\u5267\u589E\u957F\u6216\u51CF\u5C11"

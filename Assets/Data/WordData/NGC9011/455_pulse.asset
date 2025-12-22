@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 455_pulse
+  m_EditorClassIdentifier: 
+  id: ngc9011_455
+  wordText: pulse
+  audioClip: {fileID: 8300000, guid: 9f0fab4de6b0b1b448f99038e99494a3, type: 3}
+  meaning: "n. \u8109\u52A8\uFF1B\u8282\u594F  v. \u8DF3\u52A8\uFF1B\u9707\u52A8"

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 450_foothill
+  m_EditorClassIdentifier: 
+  id: ngc9011_450
+  wordText: foothill
+  audioClip: {fileID: 8300000, guid: 69e1c308ca1c07545b48d26a98d83eb4, type: 3}
+  meaning: "n. \u4E18\u9675\uFF1B\u5C71\u9E93\u5730\u5E26"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 330_sponge
+  m_EditorClassIdentifier: 
+  id: ngc9011_330
+  wordText: sponge
+  audioClip: {fileID: 8300000, guid: 86953d2c24d134d4a91f16182534532f, type: 3}
+  meaning: "n. \u6D77\u7EF5\uFF1B\u6D77\u7EF5\u72B6\u7269\uFF1B\u5BC4\u751F\u866B
+    v. \u7528\u6D77\u7EF5\u64E6\u62ED\uFF1B\u5438\u6536\uFF1B\u5BC4\u751F"

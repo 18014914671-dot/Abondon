@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 478_tide
+  m_EditorClassIdentifier: 
+  id: ngc9011_478
+  wordText: tide
+  audioClip: {fileID: 8300000, guid: b76883274ee9d5249939a1e89d8f6e63, type: 3}
+  meaning: "n. \u6F6E\u6C50\uFF1B\u8D8B\u52BF  v. \u968F\u6F6E\u6F02\u6D41"

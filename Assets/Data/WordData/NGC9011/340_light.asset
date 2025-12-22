@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 340_light
+  m_EditorClassIdentifier: 
+  id: ngc9011_340
+  wordText: light
+  audioClip: {fileID: 8300000, guid: dbd1edac3e57e5d488bf0430fa33b661, type: 3}
+  meaning: "n. \u5149\uFF1B\u5149\u7EBF\uFF1B\u706F\uFF1B\u89C1\u89E3 adj. \u8F7B\u7684\uFF1B\u660E\u4EAE\u7684\uFF1B\u6D45\u8272\u7684
+    v. \u70B9\u71C3\uFF1B\u7167\u4EAE adv. \u8F7B\u5730"

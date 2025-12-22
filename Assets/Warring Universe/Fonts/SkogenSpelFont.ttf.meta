@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a85d6689a928f6f44a2f99901c627b55
+timeCreated: 1494623814
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SkogenSpelFont
+  fontNames:
+  - SkogenSpelFont
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

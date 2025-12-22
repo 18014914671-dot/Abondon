@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 256_palm
+  m_EditorClassIdentifier: 
+  id: ngc9011_256
+  wordText: palm
+  audioClip: {fileID: 8300000, guid: 5573989d6662f6a44928d7c1dd794510, type: 3}
+  meaning: "n. \u68D5\u6988\u6811\uFF1B\u624B\u638C\uFF1B\u638C\u72B6\u7269\uFF1B\u80DC\u5229
+    v. \u85CF\u5728\u624B\u4E2D\uFF1B\u6B3A\u9A97"

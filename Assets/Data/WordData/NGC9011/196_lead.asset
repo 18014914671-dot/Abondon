@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 196_lead
+  m_EditorClassIdentifier: 
+  id: ngc9011_196
+  wordText: lead
+  audioClip: {fileID: 8300000, guid: 251f80c376c275046b29882ef992aaf9, type: 3}
+  meaning: "n. \u94C5\uFF1B\u9886\u5BFC\uFF1B\u699C\u6837\uFF1B\u7EBF\u7D22 v. \u9886\u5BFC\uFF1B\u5BFC\u81F4\uFF1B\u901A\u5411
+    adj. \u9886\u5934\u7684"

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 452_glow
+  m_EditorClassIdentifier: 
+  id: ngc9011_452
+  wordText: glow
+  audioClip: {fileID: 8300000, guid: e5ed565cbeb2a3748900e0afc29eebeb, type: 3}
+  meaning: "n. \u5FAE\u5149\uFF1B\u5149\u8F89  v. \u53D1\u5149\uFF1B\u6CDB\u7EA2"

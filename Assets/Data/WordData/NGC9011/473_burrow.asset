@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 473_burrow
+  m_EditorClassIdentifier: 
+  id: ngc9011_473
+  wordText: burrow
+  audioClip: {fileID: 8300000, guid: 5aa37a13f39aed5469e4bb25d64f6f33, type: 3}
+  meaning: "n. \u5730\u6D1E\uFF1B\u6D1E\u7A74  v. \u6316\u6398\uFF1B\u94BB\u8FDB"

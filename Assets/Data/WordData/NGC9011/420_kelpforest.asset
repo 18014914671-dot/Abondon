@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 420_kelpforest
+  m_EditorClassIdentifier: 
+  id: ngc9011_420
+  wordText: kelpforest
+  audioClip: {fileID: 8300000, guid: c8bec7b0f73e3b04a8652b9995ab39be, type: 3}
+  meaning: "n. \u6D77\u5E26\u68EE\u6797"

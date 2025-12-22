@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 312_photosynthesis
+  m_EditorClassIdentifier: 
+  id: ngc9011_312
+  wordText: photosynthesis
+  audioClip: {fileID: 8300000, guid: d04791b7033e0d740ba7e96c72c9a392, type: 3}
+  meaning: "n. \u5149\u5408\u4F5C\u7528"

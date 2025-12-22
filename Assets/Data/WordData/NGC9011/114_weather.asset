@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 114_weather
+  m_EditorClassIdentifier: 
+  id: ngc9011_114
+  wordText: weather
+  audioClip: {fileID: 8300000, guid: 1863aa2996fd29146bcab1f3bc726d9a, type: 3}
+  meaning: "n. \u5929\u6C14\uFF1B\u6C14\u8C61\uFF1B\u5904\u5883 v. \u98CE\u5316\uFF1B\u7ECF\u53D7\u4F4F
+    adj. \u8FCE\u98CE\u7684"

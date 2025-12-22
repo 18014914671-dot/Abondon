@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 460_gust
+  m_EditorClassIdentifier: 
+  id: ngc9011_460
+  wordText: gust
+  audioClip: {fileID: 8300000, guid: d6efd83a5275a8147a785da5039307a4, type: 3}
+  meaning: "n. \u4E00\u9635\u98CE\uFF1B\u7206\u53D1  v. \u731B\u522E"

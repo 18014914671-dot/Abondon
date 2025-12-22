@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 16_dusk
+  m_EditorClassIdentifier: 
+  id: ngc9011_16
+  wordText: dusk
+  audioClip: {fileID: 8300000, guid: ae7b374f6eb11f74899f816d863a0629, type: 3}
+  meaning: "n. \u9EC4\u660F\uFF1B\u5E7D\u6697"

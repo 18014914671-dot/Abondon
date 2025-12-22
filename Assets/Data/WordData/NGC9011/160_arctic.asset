@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 160_arctic
+  m_EditorClassIdentifier: 
+  id: ngc9011_160
+  wordText: arctic
+  audioClip: {fileID: 8300000, guid: b801dcaf622b01548ad99f7291fb2387, type: 3}
+  meaning: "adj. \u5317\u6781\u7684\uFF1B\u6781\u5BD2\u7684 n. \u5317\u6781\uFF1B\u5FA1\u5BD2\u9632\u6C34\u5957\u978B"

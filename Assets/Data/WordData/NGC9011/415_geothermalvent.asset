@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 415_geothermalvent
+  m_EditorClassIdentifier: 
+  id: ngc9011_415
+  wordText: geothermalvent
+  audioClip: {fileID: 8300000, guid: 742b45263b7573c49b82d7e239cb20da, type: 3}
+  meaning: "n. \u5730\u70ED\u55B7\u53E3"

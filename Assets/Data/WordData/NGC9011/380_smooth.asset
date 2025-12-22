@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e734f2b4ef08c7940a412de8afe9bc0f, type: 3}
+  m_Name: 380_smooth
+  m_EditorClassIdentifier: 
+  id: ngc9011_380
+  wordText: smooth
+  audioClip: {fileID: 8300000, guid: f5f9cae9126345743b6ceefa9022ea5a, type: 3}
+  meaning: "adj. \u5149\u6ED1\u7684\uFF1B\u5E73\u7A33\u7684\uFF1B\u6D41\u7545\u7684\uFF1B\u5706\u6ED1\u7684
+    v. \u4F7F\u5149\u6ED1\uFF1B\u7F13\u548C\uFF1B\u6D88\u9664 n. \u5E73\u6ED1\u90E8\u5206\uFF1B\u629A\u5E73"
