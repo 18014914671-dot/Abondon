@@ -5625,8 +5625,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   host: 127.0.0.1
   port: 8080
-  serverExePath: C:\Whisper\whisper.cpp-master\build\bin\Release\whisper-server.exe
-  modelPath: C:\Whisper\whisper.cpp-master\models\ggml-base-q5_1.bin
+  streamingFolder: Whisper
+  serverExeName: whisper-server.exe
+  modelFileName: ggml-base-q5_1.bin
   extraArgs: 
   createNoWindow: 1
   logOutput: 1
