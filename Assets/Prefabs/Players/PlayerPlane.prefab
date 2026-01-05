@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 6668395602765655807}
   - component: {fileID: 6489011599401930214}
   - component: {fileID: 24879949653028455}
+  - component: {fileID: -5548965890451702464}
+  - component: {fileID: 6341610129928966143}
+  - component: {fileID: -8364319459711538500}
   m_Layer: 0
   m_Name: PlayerPlane
   m_TagString: Untagged
@@ -102,8 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
-  rotationSpeed: 720
-  angleOffset: 0
+  fixedAngle: 90
 --- !u!96 &24879949653028455
 TrailRenderer:
   serializedVersion: 3
@@ -220,3 +222,54 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &-5548965890451702464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804668495847165656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c90c528c53f9fb40b9f75b4d7d0bf64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 5
+  currentHP: 0
+  invincibleTime: 0.35
+--- !u!114 &6341610129928966143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804668495847165656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1250bdd1b0c97408cf8eebe1848472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.08
+--- !u!114 &-8364319459711538500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804668495847165656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d23a38b153dab40a0f2053924b59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 15
+  doubleShotAngleOffset: 10
+  spreadShotBulletCount: 8
+  spreadShotTotalAngle: 60
+  audioSource: {fileID: 0}
+  shootSFX: {fileID: 0}

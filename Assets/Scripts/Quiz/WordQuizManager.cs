@@ -13,14 +13,31 @@ public class WordQuizManager : MonoBehaviour
     [Header("播放单词发音的 AudioSource")]
     public AudioSource audioSource;
 
-    [Header("UI：三个选项按钮")]
-    public Button[] optionButtons;          // 0,1,2
+    [Header("UI：三个选项按钮 (0,1,2)")]
+    public Button[] optionButtons;
 
-    [Header("UI：按钮上的文字")]
-    public TMP_Text[] optionTexts;          // 0,1,2
+    [Header("UI：按钮上的文字 (0,1,2)")]
+    public TMP_Text[] optionTexts;
 
     [Header("Hotkeys")]
     public bool allowHotkeys = true;
+
+    [Header("UI VFX (Animator)")]
+    [Tooltip("拖 UIVFX_Burst_Correct 对象上的 Animator")]
+    public Animator vfxCorrectAnimator;
+
+    [Tooltip("可选：拖 UIVFX_Burst_Wrong 对象上的 Animator；没有也没关系")]
+    public Animator vfxWrongAnimator;
+
+    [Tooltip("Animator 里 Burst 动画 State 的名字（不是 Trigger 名）")]
+    public string vfxBurstStateName = "Burst";
+
+    [Header("Delay")]
+    [Tooltip("给震动/爆光动画留时间，再切下一题。0.1~0.25 都行")]
+    public float nextQuestionDelay = 0.12f;
+
+    [Header("FX（按钮爆光/抖动/闪色）")]
+    public WordQuizFeedbackFX feedbackFX;
 
     // ✅ 本题只允许结算一次
     private bool _answeredThisQuestion = false;
@@ -57,18 +74,13 @@ public class WordQuizManager : MonoBehaviour
         if (!btn.gameObject.activeInHierarchy) return;
         if (!btn.interactable) return;
 
-        // ✅ 这里直接调用 SubmitAnswer，最稳定（不靠 EventSystem submit 防止双触发）
+        // ✅ 直接提交（不靠 EventSystem Submit，避免双触发）
         SubmitAnswer(index);
-
-        // 如果你非常在意 SpriteSwap 的 Pressed 状态，可以保留下面两行“选中”：
-        // if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(btn.gameObject);
     }
 
     public void GenerateNewQuestion()
     {
-        // ✅ 每次新题都必须重置锁
         _answeredThisQuestion = false;
-
         currentOptions.Clear();
 
         if (wordLibrary == null)
@@ -126,13 +138,17 @@ public class WordQuizManager : MonoBehaviour
             btn.onClick.AddListener(() => SubmitAnswer(idx));
         }
 
-        if (EventSystem.current != null && optionButtons.Length > 0 && optionButtons[0] != null && optionButtons[0].gameObject.activeInHierarchy)
+        if (EventSystem.current != null &&
+            optionButtons.Length > 0 &&
+            optionButtons[0] != null &&
+            optionButtons[0].gameObject.activeInHierarchy)
+        {
             EventSystem.current.SetSelectedGameObject(optionButtons[0].gameObject);
+        }
     }
 
     public void SubmitAnswer(int index)
     {
-        // ✅ 先检查 index，再上锁（避免越界把锁锁死）
         if (index < 0 || index >= currentOptions.Count)
         {
             Debug.LogWarning("WordQuizManager: 提交的选项 index 越界。");
@@ -145,22 +161,42 @@ public class WordQuizManager : MonoBehaviour
         var chosen = currentOptions[index];
         bool isCorrect = (chosen == currentCorrectWord);
 
+        // ✅ 让按钮位置播 Burst / Punch / UI 抖动
+        feedbackFX?.PlaySubmitFX(index, isCorrect);
+
+        // ✅ 你的相机抖动（已验证可用）
         if (isCorrect)
         {
-            OnAnswerCorrect?.Invoke(); // ✅ 开火交给 ComboManager
+            ScreenShake2D.Instance?.Shake(duration: 0.10f, amplitude: 0.22f, frequency: 35f);
+            OnAnswerCorrect?.Invoke();
         }
         else
         {
+            ScreenShake2D.Instance?.Shake(duration: 0.06f, amplitude: 0.14f, frequency: 45f);
             OnAnswerWrong?.Invoke();
         }
 
-        // ✅ 下一帧再出题：避免同帧 UI/输入系统重复触发造成的怪现象
-        StartCoroutine(NextQuestionNextFrame());
+        StartCoroutine(NextQuestionAfterDelay());
     }
 
-    private System.Collections.IEnumerator NextQuestionNextFrame()
+
+    private void PlayBurst(Animator animator)
     {
-        yield return null;
+        if (!animator) return;
+
+        // 关键：强制从头播，避免 Trigger/Transition 没切过去导致“不触发”
+        animator.Rebind(); // 可选但很稳（有时会清理掉上一帧残留）
+        animator.Update(0f);
+        animator.Play(vfxBurstStateName, 0, 0f);
+    }
+
+    private System.Collections.IEnumerator NextQuestionAfterDelay()
+    {
+        if (nextQuestionDelay > 0f)
+            yield return new WaitForSeconds(nextQuestionDelay);
+        else
+            yield return null;
+
         GenerateNewQuestion();
     }
 
